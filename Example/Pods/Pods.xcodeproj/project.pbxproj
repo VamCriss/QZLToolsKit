@@ -7,157 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112D87FAD7F46783D02503EE052D8D54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E8E7F28129C91EB3EC3EEE7C6B667 /* Foundation.framework */; };
-		17BD19A3C989AABFABB1C24CB18B8FC2 /* LSRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = A95A2284D0F79BBF1FE5A9FEB81172EB /* LSRotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CA3F643DB67DE284F5487B35CA7A13F /* LSWave.m in Sources */ = {isa = PBXBuildFile; fileRef = B922827F1A28A866358F7CA339FCBB90 /* LSWave.m */; };
-		27A3BAF0465F9E4EC3EF91B5F93FD075 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EC116F9AB21E29835BC3BBEB0D79D4 /* line@2x.png */; };
-		2A6C8CCB5CCC4B90922E2BB51AF6C7B0 /* Pods-QZLToolsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3FD259EB0649F6F39C42A03139512F /* Pods-QZLToolsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F4CDBF312B613A2D57266491E6D3941 /* LSLoadingHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA3E9B07C8BB3405BF1B937C0550E3B /* LSLoadingHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E9046512B538B1664B7B3BB35122906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E8E7F28129C91EB3EC3EEE7C6B667 /* Foundation.framework */; };
-		42A7E288BE52A37C4219E95B762DECB2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A32D2A5F42B5814952848069A656C10 /* MapKit.framework */; };
-		43AA9887EDF17F957986D11ED5C77A6E /* Pods-QZLToolsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D891E280A8CA1704F600CD3C77F679F /* Pods-QZLToolsKit_Example-dummy.m */; };
-		474E72011424C2D362C18317858BC03E /* LSMusicPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C78255E74CB87F64E2FB11A1A9820EC6 /* LSMusicPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07942071CB218B45D3838C6B3D30985B /* QZLToolsKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 47C038305F9359CD2228FE1C6EEE26A5 /* QZLToolsKit.bundle */; };
+		1BF7330D2911A2275F671308B18554BE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF81EF268D8619F078F6DB52EE7D14B /* ReplaceMe.m */; };
+		24B9DA37C6FA1E2A0D4C70434FE97AC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		2AAC1CF0620D6BC34CB446D8F0EC1BF5 /* AmendCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF5E72396980EB9466843E97EA7397D /* AmendCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F52AFD72240DA679FED5B2FB2E66BC /* LSCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = C016A3CB7F460961AC1E7BEB109B549B /* LSCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BD8D83536C8F672BF30451F0E50FE2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */; };
 		4D1685C61061DAF5E6A932258E563BBB /* Pods-QZLToolsKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E271D9FD849E40D9423877CE1F5CA18 /* Pods-QZLToolsKit_Tests-dummy.m */; };
-		52E71B4B9B4E29FA449AA457D2D59A22 /* QZLToolsKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37BB26F8B3E45BE800E2E8A23CC80A14 /* QZLToolsKit.bundle */; };
-		543B918C7C6AE024A988C42C0DDDC604 /* LSTick.m in Sources */ = {isa = PBXBuildFile; fileRef = 821C30D1DC4C6622BB43A8CDE98B62AD /* LSTick.m */; };
-		57D7C9FF149A9EE509FD25B0F1FD5233 /* LSMusicContentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 561A011FE8D8BD94F3D52658F823707F /* LSMusicContentModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AFDBF98292C7813BBBABA719563DB86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E8E7F28129C91EB3EC3EEE7C6B667 /* Foundation.framework */; };
-		5B7AFDDFDBF6D24DED3B042F97FB57F7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1DFE5F2E961CC708CA52E8EDB1CA7B /* ReplaceMe.m */; };
+		515679B4B3E6AB08392C942C2C6B1C0E /* LSWave.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E331CAFE766714F78E0AFFE33270EA0 /* LSWave.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5328AED0B727FA88BFD8CACD500E0426 /* LSGeolocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E4AE6F92FB0DA35E6AB1EAD902D122 /* LSGeolocation.m */; };
 		5CCD2B810D2A6C3D7F8EAEA86D781724 /* Pods-QZLToolsKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C62CFF136E0FCE76E3E83C19E30597FF /* Pods-QZLToolsKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60F248EF727C6E8B59B80A0810A1D1A7 /* word@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5E70CE770D0F37070C3222F48244AD /* word@2x.png */; };
-		6C785293AD12076BC628AD3F6606CD1F /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 805AB6FB2D3B85037CCBBB0ED0327065 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D2AEE96D1E066DB8BE2C13E2B01D209 /* LSAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AA35243101D2502F68C5287F491C79EB /* LSAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73E708905231853D7509312CEDEFDC5D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6537B00C6037625A7CF61893C94D4A /* CoreFoundation.framework */; };
-		7BE1D39F83DDED3A0003D72DBB10D7B0 /* LSAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FB67F016F38957175F15113C5B570 /* LSAnimationManager.m */; };
-		7F0E8AB286A0393F42251655E102AA99 /* LSCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EC372E8F4751F43DCDB17A0B2BBADA /* LSCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BB854BD826D1EA9B3C6B8AE8181817A /* LSLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25BB718A01E771E4F867429809C8A9 /* LSLoadingHUD.m */; };
-		95406B197A39CE826B99C532C0034919 /* LSGeolocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D7DC81711214C537ABBB8DC599A227 /* LSGeolocation.m */; };
-		95E71D8360FE384F7E90D023E6F115F3 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB8BFDD6C7FA43A5F3A40E0E838FA9A /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98A30EE62BA9C95D758415376AE70980 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D46F03FE96EAC5592C287E14BE8AB2 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B2BA4B4F86B5CDAA04C242651F364D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68090DD94617126C29E8D3D61F837AD /* UIKit.framework */; };
-		A72136601639FE75E0D6284835038076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E8E7F28129C91EB3EC3EEE7C6B667 /* Foundation.framework */; };
-		B0A93A56E9D26466BAE666598A3C5078 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C0682D46679BA668693995C21D19D6 /* YYModel-dummy.m */; };
-		B6B222E52883737CB984BD65728964BA /* LSCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 25754227A792C6A6CEE5B7160BAFEC95 /* LSCircle.m */; };
-		B73A899123D3641DECE2F5BD93118766 /* QZLToolsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA05019FB029DFC13030B5F02B0FCA6 /* QZLToolsKit-dummy.m */; };
-		B9DE165A02DA1A88FDD53ACAFC4B475E /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5967A2C13205CF40B171004E24C1443B /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C9B2D96042A62F737DEB4053405CE0 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB1BF0CC695DE3CFBFD144B740510 /* YYClassInfo.m */; };
-		C107AF463802C6491F97D195DE8C1926 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 965C7A1073637327C2D52CCD3BEDBFE4 /* NSObject+YYModel.m */; };
-		C2A87DB38885694CB1D8A22AAFB4394D /* QZLToolsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E44BEB096AD7FE1787479C86588B713 /* QZLToolsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C40CA48561EEFAA3DD63E4DBEE1DB2B6 /* AmendCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF9C871066261BEE911E31D6DE6010 /* AmendCoordinate.m */; };
-		CACDD2F1A8DF9582BCCC6E71088ABC66 /* LSMusicContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0747A097FDC67614AD055DBFE040A97 /* LSMusicContentModel.m */; };
-		DBBE3CB1BE24A5567B024712CB865F27 /* LSWave.h in Headers */ = {isa = PBXBuildFile; fileRef = A9136EFAB680A143D1D0C1DFED336DBD /* LSWave.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8A37254EC35275E83ABDD3C97BE5EA6 /* AmendCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = A00F60ACF77D651A98148EBEED1A889D /* AmendCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBA459DB78FF22BF23356F2FD5C70954 /* LSMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAABAE643A6690D20275E383066C23 /* LSMusicPlayer.m */; };
-		EFCFDC0AB3157C70C43B871FEB2B8902 /* LSGeolocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F2D141929B4E3DDFED5894BC163303 /* LSGeolocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F87FA04EE2CE23D083B4AD48BB5045BE /* LSRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA334C8A68614A1B5BC907D6E8BC8EAD /* LSRotationView.m */; };
-		FA525989E4AAFDB233690B158DE468FE /* LSTick.h in Headers */ = {isa = PBXBuildFile; fileRef = 0516CBC7F567CF80A77F8433410573E4 /* LSTick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB51451937E9ACB0FE465274C8AC9AFB /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F538AD47DB5635F8DE7A63D5F98AC028 /* YYModel.framework */; };
+		5E9EFD2BA074D461B4E3415FE0B3251C /* LSRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBF2AFA88FCA25F9D99559D474C3976 /* LSRotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		619BC95FBF941C01643E3D2DF0D5130E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8436533CEC029288113A22556AA9D09 /* MapKit.framework */; };
+		74FDBB59713C78ADF7FD514DFC9020A1 /* Pods-QZLToolsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3FD259EB0649F6F39C42A03139512F /* Pods-QZLToolsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79FE9CDAEB61E43EE6377DE86323777F /* LSAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D58CB74B4B8BE7AABA3FF45C7B74063 /* LSAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4CDA58F2C0932A55F2A21A3B260056 /* word@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB878FC4EC1560788E92D45D2B6A825 /* word@2x.png */; };
+		7B5EA19B8D90A60E2BEFFD3E1A94A2C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		81ED607A9FFB3713E4B8482E74C5425C /* LSAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5771F9781967CB91968569B615FF9613 /* LSAnimationManager.m */; };
+		83DFBC53A7856952097B4B07FF9C98B2 /* LSRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60863BE2407F031C938F19790A748688 /* LSRotationView.m */; };
+		83FECDD77AA19D4840E2D2B0D16AB498 /* LSLoadingHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = AA26A54382BBC999C4D71ABF8F071C76 /* LSLoadingHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E0DDA3AA4AA2F31D56759C52A2AFA21 /* LSCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3C7263A1BD92A09B5960F145C9EC5 /* LSCircle.m */; };
+		A72136601639FE75E0D6284835038076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		AE000973B9B82EC1DA0AAD9446B477EE /* QZLToolsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39544AF53E2CB3DA0872558847721DE2 /* QZLToolsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3269670FD07EB9BE2942BA40B93307A /* LSTick.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFFF73E374B28AC6AEE2A33766133DD /* LSTick.m */; };
+		B4B41AD25ADD4D787B71C86191DA0EAD /* LSGeolocation.h in Headers */ = {isa = PBXBuildFile; fileRef = BF32B5FE85C8665E53DB9333445D6931 /* LSGeolocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D3E61C6B2FDA2F83DFDE19BC6134DD /* LSLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AE34010D573BEE24901E8E7258222B46 /* LSLoadingHUD.m */; };
+		BA4493219082E39F852FB63198190B14 /* AmendCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAED2BB57BD99BFB183AC9362D4B07F /* AmendCoordinate.m */; };
+		CBBA1FDD6057D3F07C84B3CB3439B52B /* LSTick.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBA5D97344748A460454D1C4BD1DE28 /* LSTick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6E45BE9CBC0826A5715A1B30AA3CFF /* QZLToolsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA41331155057EC793A34EAACB34383 /* QZLToolsKit-dummy.m */; };
+		D8EBB89FE37661FDA5AB3BD79121DB08 /* Pods-QZLToolsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D891E280A8CA1704F600CD3C77F679F /* Pods-QZLToolsKit_Example-dummy.m */; };
+		E41267398A4A64BC1CCDCCA71364DAD8 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A3F7112DF149975D24EF8FF807A79BC /* line@2x.png */; };
+		F7B50B018F069588736CF8ECFA4F6506 /* LSWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5E29FE9F9A4EEC15FC3C05AC98843A /* LSWave.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DAA82E61243DB2AE03A883BE47D464E /* PBXContainerItemProxy */ = {
+		95D1C787E002F8CAAB3A500A9C48CF18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9DFB108A5F66BB121CFD1793D9D8B49;
+			remoteGlobalIDString = 529652F6C50DB9CF53B4666DC761C718;
 			remoteInfo = "QZLToolsKit-QZLToolsKit";
 		};
-		6B436D0965E31086A02F62FCC78428E5 /* PBXContainerItemProxy */ = {
+		999355455889F808ED2EA0C05149269B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A8A1A7FB603C4F060F2A125BF60D295D;
-			remoteInfo = YYModel;
-		};
-		8EBD81E2297AD2808E81D50A63AE8E96 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 41476E6D8A6F2CFBE8B130BF1EEEB14E;
+			remoteGlobalIDString = C1BF621B63676A6AF9234221F935F9F0;
 			remoteInfo = QZLToolsKit;
-		};
-		B58DCD071840F9DB05CB830A5BCDD641 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A8A1A7FB603C4F060F2A125BF60D295D;
-			remoteInfo = YYModel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		041C0C800E3F46EEC01739A1BB001A11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0516CBC7F567CF80A77F8433410573E4 /* LSTick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSTick.h; sourceTree = "<group>"; };
 		06B5525C728CC82F8EE00033CA55B1FC /* Pods-QZLToolsKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZLToolsKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0896F321269BD911CA9FFE3FE9B33050 /* Pods_QZLToolsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QZLToolsKit_Tests.framework; path = "Pods-QZLToolsKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E271D9FD849E40D9423877CE1F5CA18 /* Pods-QZLToolsKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QZLToolsKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		0FF394D14CE4D6379AFAE7BCFD089440 /* Pods_QZLToolsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QZLToolsKit_Example.framework; path = "Pods-QZLToolsKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CB1558483EB337ACEC06F93576659D /* Pods-QZLToolsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QZLToolsKit_Example.modulemap"; sourceTree = "<group>"; };
-		1882D9A2C74BA7EBC1B7733CD90C98A7 /* QZLToolsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZLToolsKit-prefix.pch"; sourceTree = "<group>"; };
-		1B6206B71A39167B5C517EF4C77B299E /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YYModel.modulemap; sourceTree = "<group>"; };
-		1DA3E9B07C8BB3405BF1B937C0550E3B /* LSLoadingHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSLoadingHUD.h; sourceTree = "<group>"; };
-		21FD5A28900A669E7ACDBECC5EE47934 /* Pods_QZLToolsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QZLToolsKit_Example.framework; path = "Pods-QZLToolsKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25754227A792C6A6CEE5B7160BAFEC95 /* LSCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSCircle.m; sourceTree = "<group>"; };
-		2D25BB718A01E771E4F867429809C8A9 /* LSLoadingHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSLoadingHUD.m; sourceTree = "<group>"; };
+		1BAED2BB57BD99BFB183AC9362D4B07F /* AmendCoordinate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmendCoordinate.m; sourceTree = "<group>"; };
+		2AA41331155057EC793A34EAACB34383 /* QZLToolsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QZLToolsKit-dummy.m"; sourceTree = "<group>"; };
 		2D891E280A8CA1704F600CD3C77F679F /* Pods-QZLToolsKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QZLToolsKit_Example-dummy.m"; sourceTree = "<group>"; };
-		32C0682D46679BA668693995C21D19D6 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
-		36FF9C871066261BEE911E31D6DE6010 /* AmendCoordinate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmendCoordinate.m; sourceTree = "<group>"; };
-		37BB26F8B3E45BE800E2E8A23CC80A14 /* QZLToolsKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QZLToolsKit.bundle; path = QZLToolsKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F9FB67F016F38957175F15113C5B570 /* LSAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSAnimationManager.m; sourceTree = "<group>"; };
-		406F1A52141C8431F071322F48F514F3 /* ResourceBundle-QZLToolsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QZLToolsKit-Info.plist"; sourceTree = "<group>"; };
-		4CBAABAE643A6690D20275E383066C23 /* LSMusicPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSMusicPlayer.m; sourceTree = "<group>"; };
-		52EEB1BF0CC695DE3CFBFD144B740510 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
-		561A011FE8D8BD94F3D52658F823707F /* LSMusicContentModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSMusicContentModel.h; sourceTree = "<group>"; };
-		5967A2C13205CF40B171004E24C1443B /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
-		5A32D2A5F42B5814952848069A656C10 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		5D5E70CE770D0F37070C3222F48244AD /* word@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "word@2x.png"; path = "QZLToolsKit/Assets/word@2x.png"; sourceTree = "<group>"; };
+		342082DE01CF9CBA60E039AF0BC1368A /* QZLToolsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QZLToolsKit.modulemap; sourceTree = "<group>"; };
+		39544AF53E2CB3DA0872558847721DE2 /* QZLToolsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZLToolsKit-umbrella.h"; sourceTree = "<group>"; };
+		3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FF3C7263A1BD92A09B5960F145C9EC5 /* LSCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSCircle.m; sourceTree = "<group>"; };
+		47C038305F9359CD2228FE1C6EEE26A5 /* QZLToolsKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QZLToolsKit.bundle; path = QZLToolsKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C45E8D30644159A5545F07707C71447 /* QZLToolsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QZLToolsKit.framework; path = QZLToolsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBF2AFA88FCA25F9D99559D474C3976 /* LSRotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSRotationView.h; sourceTree = "<group>"; };
+		5771F9781967CB91968569B615FF9613 /* LSAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSAnimationManager.m; sourceTree = "<group>"; };
+		58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		60863BE2407F031C938F19790A748688 /* LSRotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSRotationView.m; sourceTree = "<group>"; };
 		6174F072A42751D91F94B873D6E3762A /* Pods-QZLToolsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZLToolsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		61D7DC81711214C537ABBB8DC599A227 /* LSGeolocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSGeolocation.m; sourceTree = "<group>"; };
-		6E44BEB096AD7FE1787479C86588B713 /* QZLToolsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZLToolsKit-umbrella.h"; sourceTree = "<group>"; };
+		692C26B054BD57953AC8DDF3B25BCDFF /* QZLToolsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QZLToolsKit.xcconfig; sourceTree = "<group>"; };
+		6E5E29FE9F9A4EEC15FC3C05AC98843A /* LSWave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSWave.m; sourceTree = "<group>"; };
 		6F1C8AFD7349536C5331A3E29C477244 /* Pods-QZLToolsKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QZLToolsKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71F2D141929B4E3DDFED5894BC163303 /* LSGeolocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSGeolocation.h; sourceTree = "<group>"; };
-		7FA03DFEF98CEFA90B14BF060A24D83B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		805AB6FB2D3B85037CCBBB0ED0327065 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
-		821C30D1DC4C6622BB43A8CDE98B62AD /* LSTick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSTick.m; sourceTree = "<group>"; };
-		86EC372E8F4751F43DCDB17A0B2BBADA /* LSCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSCircle.h; sourceTree = "<group>"; };
-		8C1DFE5F2E961CC708CA52E8EDB1CA7B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QZLToolsKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		8E331CAFE766714F78E0AFFE33270EA0 /* LSWave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSWave.h; sourceTree = "<group>"; };
+		90C023E90BF725369275CB3AA6FF14FA /* ResourceBundle-QZLToolsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QZLToolsKit-Info.plist"; sourceTree = "<group>"; };
 		934C8F195C37D6FB7C7785BD8561D539 /* Pods-QZLToolsKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZLToolsKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		965C7A1073637327C2D52CCD3BEDBFE4 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
-		9EB8BFDD6C7FA43A5F3A40E0E838FA9A /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
-		9F892EA79E5594E3B7583CE4EF288535 /* QZLToolsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QZLToolsKit.framework; path = QZLToolsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A00F60ACF77D651A98148EBEED1A889D /* AmendCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmendCoordinate.h; sourceTree = "<group>"; };
+		9A3F7112DF149975D24EF8FF807A79BC /* line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "line@2x.png"; path = "QZLToolsKit/Assets/line@2x.png"; sourceTree = "<group>"; };
+		9AF81EF268D8619F078F6DB52EE7D14B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QZLToolsKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9BFFF73E374B28AC6AEE2A33766133DD /* LSTick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSTick.m; sourceTree = "<group>"; };
+		9D58CB74B4B8BE7AABA3FF45C7B74063 /* LSAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSAnimationManager.h; sourceTree = "<group>"; };
 		A3CF7FFFF230676C34096C70141501F1 /* Pods-QZLToolsKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QZLToolsKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A4A566B7A1C0ABE3D492F1EF66FA9F20 /* Pods_QZLToolsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QZLToolsKit_Tests.framework; path = "Pods-QZLToolsKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9136EFAB680A143D1D0C1DFED336DBD /* LSWave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSWave.h; sourceTree = "<group>"; };
-		A95A2284D0F79BBF1FE5A9FEB81172EB /* LSRotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSRotationView.h; sourceTree = "<group>"; };
-		AA334C8A68614A1B5BC907D6E8BC8EAD /* LSRotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSRotationView.m; sourceTree = "<group>"; };
-		AA35243101D2502F68C5287F491C79EB /* LSAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSAnimationManager.h; sourceTree = "<group>"; };
-		B7D46F03FE96EAC5592C287E14BE8AB2 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
-		B922827F1A28A866358F7CA339FCBB90 /* LSWave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSWave.m; sourceTree = "<group>"; };
+		AA26A54382BBC999C4D71ABF8F071C76 /* LSLoadingHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSLoadingHUD.h; sourceTree = "<group>"; };
+		AE34010D573BEE24901E8E7258222B46 /* LSLoadingHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSLoadingHUD.m; sourceTree = "<group>"; };
+		AF7CBB8D5A604D3A502D05A90C098975 /* QZLToolsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZLToolsKit-prefix.pch"; sourceTree = "<group>"; };
+		B5E4AE6F92FB0DA35E6AB1EAD902D122 /* LSGeolocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSGeolocation.m; sourceTree = "<group>"; };
+		B8436533CEC029288113A22556AA9D09 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		B93AAB6C0C1DD5B21ED21929CAF51975 /* Pods-QZLToolsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QZLToolsKit_Tests.modulemap"; sourceTree = "<group>"; };
-		BB6537B00C6037625A7CF61893C94D4A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		C0747A097FDC67614AD055DBFE040A97 /* LSMusicContentModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LSMusicContentModel.m; sourceTree = "<group>"; };
+		BEB878FC4EC1560788E92D45D2B6A825 /* word@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "word@2x.png"; path = "QZLToolsKit/Assets/word@2x.png"; sourceTree = "<group>"; };
+		BF32B5FE85C8665E53DB9333445D6931 /* LSGeolocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSGeolocation.h; sourceTree = "<group>"; };
+		C016A3CB7F460961AC1E7BEB109B549B /* LSCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSCircle.h; sourceTree = "<group>"; };
 		C093080F5E5556D6C84925E81D01A032 /* Pods-QZLToolsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZLToolsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C2FBF7B075459E765EDACC5E7DA6301C /* Pods-QZLToolsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZLToolsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3C7EDE62C882DD4D17C9B00BAA0A454 /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
 		C62CFF136E0FCE76E3E83C19E30597FF /* Pods-QZLToolsKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QZLToolsKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C78255E74CB87F64E2FB11A1A9820EC6 /* LSMusicPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSMusicPlayer.h; sourceTree = "<group>"; };
 		CEA04D1E2C4A33F3EEC21DF1C9E03B4E /* Pods-QZLToolsKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZLToolsKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		CFA05019FB029DFC13030B5F02B0FCA6 /* QZLToolsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QZLToolsKit-dummy.m"; sourceTree = "<group>"; };
-		D4EC116F9AB21E29835BC3BBEB0D79D4 /* line@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "line@2x.png"; path = "QZLToolsKit/Assets/line@2x.png"; sourceTree = "<group>"; };
-		D68090DD94617126C29E8D3D61F837AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D78E8E7F28129C91EB3EC3EEE7C6B667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D97ACE92B8C8752B8C3CFC0930A9F46F /* QZLToolsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QZLToolsKit.xcconfig; sourceTree = "<group>"; };
-		E017EDC1FFAF720060C16F9F6678643C /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
 		E2B26CD73484829A1D1019B7802ED776 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E434E36D59B8F397C77F7F51CF967C54 /* QZLToolsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QZLToolsKit.modulemap; sourceTree = "<group>"; };
 		E56A05980ACD1207F4F78928EAFE194A /* Pods-QZLToolsKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZLToolsKit_Example-resources.sh"; sourceTree = "<group>"; };
 		E78E2C7C6312A15FB8E52F70FD277B2C /* Pods-QZLToolsKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZLToolsKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F538AD47DB5635F8DE7A63D5F98AC028 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F613DF08298A7EE24DA8B33580F70C17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA995B2F131781B9B30D3279EF18BEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF5E72396980EB9466843E97EA7397D /* AmendCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmendCoordinate.h; sourceTree = "<group>"; };
 		F6B0CECC71760DDD0D53511F84B60B82 /* Pods-QZLToolsKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZLToolsKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F7286A1EE97ADA44C520DB09FB3F78DE /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3FD259EB0649F6F39C42A03139512F /* Pods-QZLToolsKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QZLToolsKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		FDF880F31BA0DD186932315CA939CA81 /* Pods-QZLToolsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZLToolsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FEBA5D97344748A460454D1C4BD1DE28 /* LSTick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LSTick.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,38 +123,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DD50AB08785FF69A877D27D78255308 /* Frameworks */ = {
+		4E52E52D7AA8E3E125B8A2F62F6C056B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E9046512B538B1664B7B3BB35122906 /* Foundation.framework in Frameworks */,
+				24B9DA37C6FA1E2A0D4C70434FE97AC8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		711230F460F4734A6388536E2D627CB9 /* Frameworks */ = {
+		B21F4B2E3B3DEAF6AB4116492F103465 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5EA19B8D90A60E2BEFFD3E1A94A2C1 /* Foundation.framework in Frameworks */,
+				619BC95FBF941C01643E3D2DF0D5130E /* MapKit.framework in Frameworks */,
+				3BD8D83536C8F672BF30451F0E50FE2F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F338FDAAEE40498F5F8C06C7049FC29 /* Frameworks */ = {
+		BF11C3E787AAFC813EF2912E083DE406 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112D87FAD7F46783D02503EE052D8D54 /* Foundation.framework in Frameworks */,
-				42A7E288BE52A37C4219E95B762DECB2 /* MapKit.framework in Frameworks */,
-				9B2BA4B4F86B5CDAA04C242651F364D4 /* UIKit.framework in Frameworks */,
-				FB51451937E9ACB0FE465274C8AC9AFB /* YYModel.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABE13E86CE4BAFFA9C505642E9AE5D1E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73E708905231853D7509312CEDEFDC5D /* CoreFoundation.framework in Frameworks */,
-				5AFDBF98292C7813BBBABA719563DB86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,42 +160,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		09380EA71E3EBD81A87882157DB36C71 /* Pods */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EADFB64E1E3B0D228C305C49EE28D12 /* YYModel */,
+				5013620A7162A5C7CFF94512DF9CF854 /* iOS */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0EADFB64E1E3B0D228C305C49EE28D12 /* YYModel */ = {
-			isa = PBXGroup;
-			children = (
-				B7D46F03FE96EAC5592C287E14BE8AB2 /* NSObject+YYModel.h */,
-				965C7A1073637327C2D52CCD3BEDBFE4 /* NSObject+YYModel.m */,
-				805AB6FB2D3B85037CCBBB0ED0327065 /* YYClassInfo.h */,
-				52EEB1BF0CC695DE3CFBFD144B740510 /* YYClassInfo.m */,
-				5967A2C13205CF40B171004E24C1443B /* YYModel.h */,
-				6CBFD2F103FFE1F250918CCE24B686CA /* Support Files */,
-			);
-			name = YYModel;
-			path = YYModel;
-			sourceTree = "<group>";
-		};
-		0EFE5DEACBE1A74CB7D47EAB87319EDF /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				AA35243101D2502F68C5287F491C79EB /* LSAnimationManager.h */,
-				3F9FB67F016F38957175F15113C5B570 /* LSAnimationManager.m */,
-				86EC372E8F4751F43DCDB17A0B2BBADA /* LSCircle.h */,
-				25754227A792C6A6CEE5B7160BAFEC95 /* LSCircle.m */,
-				0516CBC7F567CF80A77F8433410573E4 /* LSTick.h */,
-				821C30D1DC4C6622BB43A8CDE98B62AD /* LSTick.m */,
-				A9136EFAB680A143D1D0C1DFED336DBD /* LSWave.h */,
-				B922827F1A28A866358F7CA339FCBB90 /* LSWave.m */,
-			);
-			name = Animation;
-			path = QZLToolsKit/Classes/Animation;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1441394C47A551C2E8B8C4FE109D4B46 /* Pods-QZLToolsKit_Example */ = {
@@ -272,19 +186,60 @@
 			path = "Target Support Files/Pods-QZLToolsKit_Example";
 			sourceTree = "<group>";
 		};
-		457B1A7F52F3AE130C4BEBA2A85C2E77 /* QZLToolsKit */ = {
+		21BE568000A36E9165CCE2C2ABA4331D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C1DFE5F2E961CC708CA52E8EDB1CA7B /* ReplaceMe.m */,
-				0EFE5DEACBE1A74CB7D47EAB87319EDF /* Animation */,
-				A3BED8BAD8856DC7E95AABA1C74FBFE8 /* Geolocation */,
-				7DFFD49D5D3D52A4ACA84523F50C5668 /* LSLoadingHUD */,
-				E7DDD560AA4FD69F3CCEB79C6E16B31A /* MusicPlayer */,
-				86DF78AB9F7EC83F41EE11373A070185 /* Resources */,
-				63202E94812E11BE522B803E122D0FD3 /* Support Files */,
+				0FF394D14CE4D6379AFAE7BCFD089440 /* Pods_QZLToolsKit_Example.framework */,
+				0896F321269BD911CA9FFE3FE9B33050 /* Pods_QZLToolsKit_Tests.framework */,
+				47C038305F9359CD2228FE1C6EEE26A5 /* QZLToolsKit.bundle */,
+				4C45E8D30644159A5545F07707C71447 /* QZLToolsKit.framework */,
 			);
-			name = QZLToolsKit;
-			path = ../..;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42448129129D0E3C3FD575F12ABFD676 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA995B2F131781B9B30D3279EF18BEA /* Info.plist */,
+				342082DE01CF9CBA60E039AF0BC1368A /* QZLToolsKit.modulemap */,
+				692C26B054BD57953AC8DDF3B25BCDFF /* QZLToolsKit.xcconfig */,
+				2AA41331155057EC793A34EAACB34383 /* QZLToolsKit-dummy.m */,
+				AF7CBB8D5A604D3A502D05A90C098975 /* QZLToolsKit-prefix.pch */,
+				39544AF53E2CB3DA0872558847721DE2 /* QZLToolsKit-umbrella.h */,
+				90C023E90BF725369275CB3AA6FF14FA /* ResourceBundle-QZLToolsKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QZLToolsKit";
+			sourceTree = "<group>";
+		};
+		43C9957FFB3159CBAE5B92F3CB46C35B /* Geolocation */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5E72396980EB9466843E97EA7397D /* AmendCoordinate.h */,
+				1BAED2BB57BD99BFB183AC9362D4B07F /* AmendCoordinate.m */,
+				BF32B5FE85C8665E53DB9333445D6931 /* LSGeolocation.h */,
+				B5E4AE6F92FB0DA35E6AB1EAD902D122 /* LSGeolocation.m */,
+			);
+			name = Geolocation;
+			path = QZLToolsKit/Classes/Geolocation;
+			sourceTree = "<group>";
+		};
+		5013620A7162A5C7CFF94512DF9CF854 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */,
+				B8436533CEC029288113A22556AA9D09 /* MapKit.framework */,
+				58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5753989724EB260FEA8CC580A11A832F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9551C3F4225199EDAD158AE88F64D673 /* QZLToolsKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5C9A773F75DCE1CFB66073C6236F2C2A /* Pods-QZLToolsKit_Tests */ = {
@@ -305,143 +260,84 @@
 			path = "Target Support Files/Pods-QZLToolsKit_Tests";
 			sourceTree = "<group>";
 		};
-		63202E94812E11BE522B803E122D0FD3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7FA03DFEF98CEFA90B14BF060A24D83B /* Info.plist */,
-				E434E36D59B8F397C77F7F51CF967C54 /* QZLToolsKit.modulemap */,
-				D97ACE92B8C8752B8C3CFC0930A9F46F /* QZLToolsKit.xcconfig */,
-				CFA05019FB029DFC13030B5F02B0FCA6 /* QZLToolsKit-dummy.m */,
-				1882D9A2C74BA7EBC1B7733CD90C98A7 /* QZLToolsKit-prefix.pch */,
-				6E44BEB096AD7FE1787479C86588B713 /* QZLToolsKit-umbrella.h */,
-				406F1A52141C8431F071322F48F514F3 /* ResourceBundle-QZLToolsKit-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QZLToolsKit";
-			sourceTree = "<group>";
-		};
-		6CBFD2F103FFE1F250918CCE24B686CA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F613DF08298A7EE24DA8B33580F70C17 /* Info.plist */,
-				1B6206B71A39167B5C517EF4C77B299E /* YYModel.modulemap */,
-				C3C7EDE62C882DD4D17C9B00BAA0A454 /* YYModel.xcconfig */,
-				32C0682D46679BA668693995C21D19D6 /* YYModel-dummy.m */,
-				E017EDC1FFAF720060C16F9F6678643C /* YYModel-prefix.pch */,
-				9EB8BFDD6C7FA43A5F3A40E0E838FA9A /* YYModel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YYModel";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E862CD7597897786D8386538E1DA7AEE /* Development Pods */,
-				EE02E376E3DC7E7C8C1BE5DCC0B99A7E /* Frameworks */,
-				09380EA71E3EBD81A87882157DB36C71 /* Pods */,
-				B677845DCED34695794EC7D24DEEF683 /* Products */,
+				5753989724EB260FEA8CC580A11A832F /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				21BE568000A36E9165CCE2C2ABA4331D /* Products */,
 				0836AE48ED2709572CFEEDD36E2DBA20 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7DFFD49D5D3D52A4ACA84523F50C5668 /* LSLoadingHUD */ = {
+		84A9DA8B2E5642DD0CA23A8DDFB00948 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1DA3E9B07C8BB3405BF1B937C0550E3B /* LSLoadingHUD.h */,
-				2D25BB718A01E771E4F867429809C8A9 /* LSLoadingHUD.m */,
-				A95A2284D0F79BBF1FE5A9FEB81172EB /* LSRotationView.h */,
-				AA334C8A68614A1B5BC907D6E8BC8EAD /* LSRotationView.m */,
+				9A3F7112DF149975D24EF8FF807A79BC /* line@2x.png */,
+				BEB878FC4EC1560788E92D45D2B6A825 /* word@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8EB4EDF98966D2976176CBCC58AE4967 /* LSLoadingHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AA26A54382BBC999C4D71ABF8F071C76 /* LSLoadingHUD.h */,
+				AE34010D573BEE24901E8E7258222B46 /* LSLoadingHUD.m */,
+				4CBF2AFA88FCA25F9D99559D474C3976 /* LSRotationView.h */,
+				60863BE2407F031C938F19790A748688 /* LSRotationView.m */,
 			);
 			name = LSLoadingHUD;
 			path = QZLToolsKit/Classes/LSLoadingHUD;
 			sourceTree = "<group>";
 		};
-		86DF78AB9F7EC83F41EE11373A070185 /* Resources */ = {
+		9551C3F4225199EDAD158AE88F64D673 /* QZLToolsKit */ = {
 			isa = PBXGroup;
 			children = (
-				D4EC116F9AB21E29835BC3BBEB0D79D4 /* line@2x.png */,
-				5D5E70CE770D0F37070C3222F48244AD /* word@2x.png */,
+				9AF81EF268D8619F078F6DB52EE7D14B /* ReplaceMe.m */,
+				CCB8B42B67D08FCE9769DCA8C105B4DD /* Animation */,
+				43C9957FFB3159CBAE5B92F3CB46C35B /* Geolocation */,
+				8EB4EDF98966D2976176CBCC58AE4967 /* LSLoadingHUD */,
+				84A9DA8B2E5642DD0CA23A8DDFB00948 /* Resources */,
+				42448129129D0E3C3FD575F12ABFD676 /* Support Files */,
 			);
-			name = Resources;
+			name = QZLToolsKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		A3BED8BAD8856DC7E95AABA1C74FBFE8 /* Geolocation */ = {
+		CCB8B42B67D08FCE9769DCA8C105B4DD /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				A00F60ACF77D651A98148EBEED1A889D /* AmendCoordinate.h */,
-				36FF9C871066261BEE911E31D6DE6010 /* AmendCoordinate.m */,
-				71F2D141929B4E3DDFED5894BC163303 /* LSGeolocation.h */,
-				61D7DC81711214C537ABBB8DC599A227 /* LSGeolocation.m */,
+				9D58CB74B4B8BE7AABA3FF45C7B74063 /* LSAnimationManager.h */,
+				5771F9781967CB91968569B615FF9613 /* LSAnimationManager.m */,
+				C016A3CB7F460961AC1E7BEB109B549B /* LSCircle.h */,
+				3FF3C7263A1BD92A09B5960F145C9EC5 /* LSCircle.m */,
+				FEBA5D97344748A460454D1C4BD1DE28 /* LSTick.h */,
+				9BFFF73E374B28AC6AEE2A33766133DD /* LSTick.m */,
+				8E331CAFE766714F78E0AFFE33270EA0 /* LSWave.h */,
+				6E5E29FE9F9A4EEC15FC3C05AC98843A /* LSWave.m */,
 			);
-			name = Geolocation;
-			path = QZLToolsKit/Classes/Geolocation;
-			sourceTree = "<group>";
-		};
-		ADC898AE48C260353F60E8BE3FA8CA5C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				BB6537B00C6037625A7CF61893C94D4A /* CoreFoundation.framework */,
-				D78E8E7F28129C91EB3EC3EEE7C6B667 /* Foundation.framework */,
-				5A32D2A5F42B5814952848069A656C10 /* MapKit.framework */,
-				D68090DD94617126C29E8D3D61F837AD /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		B677845DCED34695794EC7D24DEEF683 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				21FD5A28900A669E7ACDBECC5EE47934 /* Pods_QZLToolsKit_Example.framework */,
-				A4A566B7A1C0ABE3D492F1EF66FA9F20 /* Pods_QZLToolsKit_Tests.framework */,
-				37BB26F8B3E45BE800E2E8A23CC80A14 /* QZLToolsKit.bundle */,
-				9F892EA79E5594E3B7583CE4EF288535 /* QZLToolsKit.framework */,
-				F7286A1EE97ADA44C520DB09FB3F78DE /* YYModel.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E7DDD560AA4FD69F3CCEB79C6E16B31A /* MusicPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				561A011FE8D8BD94F3D52658F823707F /* LSMusicContentModel.h */,
-				C0747A097FDC67614AD055DBFE040A97 /* LSMusicContentModel.m */,
-				C78255E74CB87F64E2FB11A1A9820EC6 /* LSMusicPlayer.h */,
-				4CBAABAE643A6690D20275E383066C23 /* LSMusicPlayer.m */,
-			);
-			name = MusicPlayer;
-			path = QZLToolsKit/Classes/MusicPlayer;
-			sourceTree = "<group>";
-		};
-		E862CD7597897786D8386538E1DA7AEE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				457B1A7F52F3AE130C4BEBA2A85C2E77 /* QZLToolsKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		EE02E376E3DC7E7C8C1BE5DCC0B99A7E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F538AD47DB5635F8DE7A63D5F98AC028 /* YYModel.framework */,
-				ADC898AE48C260353F60E8BE3FA8CA5C /* iOS */,
-			);
-			name = Frameworks;
+			name = Animation;
+			path = QZLToolsKit/Classes/Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4074E8E992E673F281D5B37E0F214E25 /* Headers */ = {
+		8A219D0F074D8B6202E1714B22215AEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A30EE62BA9C95D758415376AE70980 /* NSObject+YYModel.h in Headers */,
-				6C785293AD12076BC628AD3F6606CD1F /* YYClassInfo.h in Headers */,
-				95E71D8360FE384F7E90D023E6F115F3 /* YYModel-umbrella.h in Headers */,
-				B9DE165A02DA1A88FDD53ACAFC4B475E /* YYModel.h in Headers */,
+				2AAC1CF0620D6BC34CB446D8F0EC1BF5 /* AmendCoordinate.h in Headers */,
+				79FE9CDAEB61E43EE6377DE86323777F /* LSAnimationManager.h in Headers */,
+				37F52AFD72240DA679FED5B2FB2E66BC /* LSCircle.h in Headers */,
+				B4B41AD25ADD4D787B71C86191DA0EAD /* LSGeolocation.h in Headers */,
+				83FECDD77AA19D4840E2D2B0D16AB498 /* LSLoadingHUD.h in Headers */,
+				5E9EFD2BA074D461B4E3415FE0B3251C /* LSRotationView.h in Headers */,
+				CBBA1FDD6057D3F07C84B3CB3439B52B /* LSTick.h in Headers */,
+				515679B4B3E6AB08392C942C2C6B1C0E /* LSWave.h in Headers */,
+				AE000973B9B82EC1DA0AAD9446B477EE /* QZLToolsKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,89 +349,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9CD7291ED7A2C6E86C6C9DD01F2B703 /* Headers */ = {
+		B5EC51341C8C93E3DB97DB9723C691EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8A37254EC35275E83ABDD3C97BE5EA6 /* AmendCoordinate.h in Headers */,
-				6D2AEE96D1E066DB8BE2C13E2B01D209 /* LSAnimationManager.h in Headers */,
-				7F0E8AB286A0393F42251655E102AA99 /* LSCircle.h in Headers */,
-				EFCFDC0AB3157C70C43B871FEB2B8902 /* LSGeolocation.h in Headers */,
-				2F4CDBF312B613A2D57266491E6D3941 /* LSLoadingHUD.h in Headers */,
-				57D7C9FF149A9EE509FD25B0F1FD5233 /* LSMusicContentModel.h in Headers */,
-				474E72011424C2D362C18317858BC03E /* LSMusicPlayer.h in Headers */,
-				17BD19A3C989AABFABB1C24CB18B8FC2 /* LSRotationView.h in Headers */,
-				FA525989E4AAFDB233690B158DE468FE /* LSTick.h in Headers */,
-				DBBE3CB1BE24A5567B024712CB865F27 /* LSWave.h in Headers */,
-				C2A87DB38885694CB1D8A22AAFB4394D /* QZLToolsKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2B6369FF6AE48702D96C5DBD8EE4D59 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A6C8CCB5CCC4B90922E2BB51AF6C7B0 /* Pods-QZLToolsKit_Example-umbrella.h in Headers */,
+				74FDBB59713C78ADF7FD514DFC9020A1 /* Pods-QZLToolsKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41476E6D8A6F2CFBE8B130BF1EEEB14E /* QZLToolsKit */ = {
+		529652F6C50DB9CF53B4666DC761C718 /* QZLToolsKit-QZLToolsKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 519EF2FBCE41698E83CE11C22D17E0C9 /* Build configuration list for PBXNativeTarget "QZLToolsKit" */;
+			buildConfigurationList = F35E9942A0D9E8D5E0A973AFCBFC709F /* Build configuration list for PBXNativeTarget "QZLToolsKit-QZLToolsKit" */;
 			buildPhases = (
-				258250621D390ACB155EF1D1E60A69E0 /* Sources */,
-				9F338FDAAEE40498F5F8C06C7049FC29 /* Frameworks */,
-				1F4EFD42ACD3C50F7681FBAD03236DEF /* Resources */,
-				E9CD7291ED7A2C6E86C6C9DD01F2B703 /* Headers */,
+				2E444F3847DBA22BD1F8AF9B31772729 /* Sources */,
+				BF11C3E787AAFC813EF2912E083DE406 /* Frameworks */,
+				FFD7ADEE37931BBFF276B7A8669AE8CF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				593947F70B75D571F052BE439AFF1B2D /* PBXTargetDependency */,
-				3D220756C3CDF85CEEADA8392CBB2FEF /* PBXTargetDependency */,
+			);
+			name = "QZLToolsKit-QZLToolsKit";
+			productName = "QZLToolsKit-QZLToolsKit";
+			productReference = 47C038305F9359CD2228FE1C6EEE26A5 /* QZLToolsKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C1BF621B63676A6AF9234221F935F9F0 /* QZLToolsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E91D964C3848EB2B769EF8A4100BEEB /* Build configuration list for PBXNativeTarget "QZLToolsKit" */;
+			buildPhases = (
+				C3FBAB43618358F9105C0070A6658F78 /* Sources */,
+				B21F4B2E3B3DEAF6AB4116492F103465 /* Frameworks */,
+				537B12EBDB88ED2C885A361E8E32995A /* Resources */,
+				8A219D0F074D8B6202E1714B22215AEA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4EBBE8B391994F74C996B8D8FF40C7A /* PBXTargetDependency */,
 			);
 			name = QZLToolsKit;
 			productName = QZLToolsKit;
-			productReference = 9F892EA79E5594E3B7583CE4EF288535 /* QZLToolsKit.framework */;
+			productReference = 4C45E8D30644159A5545F07707C71447 /* QZLToolsKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A298D7E0705AEA57A091E9E034F42818 /* Pods-QZLToolsKit_Example */ = {
+		DD599796679CB370B4487D413754C509 /* Pods-QZLToolsKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D17B7EA39A4D36BB4ACCFC8F9259990 /* Build configuration list for PBXNativeTarget "Pods-QZLToolsKit_Example" */;
+			buildConfigurationList = 534C379D3ED39499477FD2E402E610B2 /* Build configuration list for PBXNativeTarget "Pods-QZLToolsKit_Example" */;
 			buildPhases = (
-				4DEBBA5F1793BB9179F287B3A3D91CCA /* Sources */,
-				5DD50AB08785FF69A877D27D78255308 /* Frameworks */,
-				F2B6369FF6AE48702D96C5DBD8EE4D59 /* Headers */,
+				60772590E5E0B9B8434602A0F3B6E556 /* Sources */,
+				4E52E52D7AA8E3E125B8A2F62F6C056B /* Frameworks */,
+				B5EC51341C8C93E3DB97DB9723C691EE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A8E820D13FF62C9A490CE0CCCDA3C98 /* PBXTargetDependency */,
-				872F75B5CB38626C58214E4BF9E4F0E4 /* PBXTargetDependency */,
+				70E835900B9364E9261C3C0D22DD16DB /* PBXTargetDependency */,
 			);
 			name = "Pods-QZLToolsKit_Example";
 			productName = "Pods-QZLToolsKit_Example";
-			productReference = 21FD5A28900A669E7ACDBECC5EE47934 /* Pods_QZLToolsKit_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A8A1A7FB603C4F060F2A125BF60D295D /* YYModel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A3681906A714F1C88F949B13DCCFA569 /* Build configuration list for PBXNativeTarget "YYModel" */;
-			buildPhases = (
-				3A29C1EF7898B8AE890F6E23ED5E9B26 /* Sources */,
-				ABE13E86CE4BAFFA9C505642E9AE5D1E /* Frameworks */,
-				4074E8E992E673F281D5B37E0F214E25 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YYModel;
-			productName = YYModel;
-			productReference = F7286A1EE97ADA44C520DB09FB3F78DE /* YYModel.framework */;
+			productReference = 0FF394D14CE4D6379AFAE7BCFD089440 /* Pods_QZLToolsKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E1E0391DE114EF6586040873B425657F /* Pods-QZLToolsKit_Tests */ = {
@@ -552,25 +428,8 @@
 			);
 			name = "Pods-QZLToolsKit_Tests";
 			productName = "Pods-QZLToolsKit_Tests";
-			productReference = A4A566B7A1C0ABE3D492F1EF66FA9F20 /* Pods_QZLToolsKit_Tests.framework */;
+			productReference = 0896F321269BD911CA9FFE3FE9B33050 /* Pods_QZLToolsKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		E9DFB108A5F66BB121CFD1793D9D8B49 /* QZLToolsKit-QZLToolsKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 88D48C3CC4AD3C2A5415BDEEB4318FDD /* Build configuration list for PBXNativeTarget "QZLToolsKit-QZLToolsKit" */;
-			buildPhases = (
-				0B5D0E96F35DF1D6DB99714BDFCCD112 /* Sources */,
-				711230F460F4734A6388536E2D627CB9 /* Frameworks */,
-				7C7CB8C3FF5156B50845073DC408D1ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "QZLToolsKit-QZLToolsKit";
-			productName = "QZLToolsKit-QZLToolsKit";
-			productReference = 37BB26F8B3E45BE800E2E8A23CC80A14 /* QZLToolsKit.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -589,81 +448,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B677845DCED34695794EC7D24DEEF683 /* Products */;
+			productRefGroup = 21BE568000A36E9165CCE2C2ABA4331D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A298D7E0705AEA57A091E9E034F42818 /* Pods-QZLToolsKit_Example */,
+				DD599796679CB370B4487D413754C509 /* Pods-QZLToolsKit_Example */,
 				E1E0391DE114EF6586040873B425657F /* Pods-QZLToolsKit_Tests */,
-				41476E6D8A6F2CFBE8B130BF1EEEB14E /* QZLToolsKit */,
-				E9DFB108A5F66BB121CFD1793D9D8B49 /* QZLToolsKit-QZLToolsKit */,
-				A8A1A7FB603C4F060F2A125BF60D295D /* YYModel */,
+				C1BF621B63676A6AF9234221F935F9F0 /* QZLToolsKit */,
+				529652F6C50DB9CF53B4666DC761C718 /* QZLToolsKit-QZLToolsKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F4EFD42ACD3C50F7681FBAD03236DEF /* Resources */ = {
+		537B12EBDB88ED2C885A361E8E32995A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E71B4B9B4E29FA449AA457D2D59A22 /* QZLToolsKit.bundle in Resources */,
+				07942071CB218B45D3838C6B3D30985B /* QZLToolsKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C7CB8C3FF5156B50845073DC408D1ED /* Resources */ = {
+		FFD7ADEE37931BBFF276B7A8669AE8CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A3BAF0465F9E4EC3EF91B5F93FD075 /* line@2x.png in Resources */,
-				60F248EF727C6E8B59B80A0810A1D1A7 /* word@2x.png in Resources */,
+				E41267398A4A64BC1CCDCCA71364DAD8 /* line@2x.png in Resources */,
+				7B4CDA58F2C0932A55F2A21A3B260056 /* word@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B5D0E96F35DF1D6DB99714BDFCCD112 /* Sources */ = {
+		2E444F3847DBA22BD1F8AF9B31772729 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		258250621D390ACB155EF1D1E60A69E0 /* Sources */ = {
+		60772590E5E0B9B8434602A0F3B6E556 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40CA48561EEFAA3DD63E4DBEE1DB2B6 /* AmendCoordinate.m in Sources */,
-				7BE1D39F83DDED3A0003D72DBB10D7B0 /* LSAnimationManager.m in Sources */,
-				B6B222E52883737CB984BD65728964BA /* LSCircle.m in Sources */,
-				95406B197A39CE826B99C532C0034919 /* LSGeolocation.m in Sources */,
-				8BB854BD826D1EA9B3C6B8AE8181817A /* LSLoadingHUD.m in Sources */,
-				CACDD2F1A8DF9582BCCC6E71088ABC66 /* LSMusicContentModel.m in Sources */,
-				EBA459DB78FF22BF23356F2FD5C70954 /* LSMusicPlayer.m in Sources */,
-				F87FA04EE2CE23D083B4AD48BB5045BE /* LSRotationView.m in Sources */,
-				543B918C7C6AE024A988C42C0DDDC604 /* LSTick.m in Sources */,
-				1CA3F643DB67DE284F5487B35CA7A13F /* LSWave.m in Sources */,
-				B73A899123D3641DECE2F5BD93118766 /* QZLToolsKit-dummy.m in Sources */,
-				5B7AFDDFDBF6D24DED3B042F97FB57F7 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A29C1EF7898B8AE890F6E23ED5E9B26 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C107AF463802C6491F97D195DE8C1926 /* NSObject+YYModel.m in Sources */,
-				C0C9B2D96042A62F737DEB4053405CE0 /* YYClassInfo.m in Sources */,
-				B0A93A56E9D26466BAE666598A3C5078 /* YYModel-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DEBBA5F1793BB9179F287B3A3D91CCA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43AA9887EDF17F957986D11ED5C77A6E /* Pods-QZLToolsKit_Example-dummy.m in Sources */,
+				D8EBB89FE37661FDA5AB3BD79121DB08 /* Pods-QZLToolsKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,64 +504,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3FBAB43618358F9105C0070A6658F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4493219082E39F852FB63198190B14 /* AmendCoordinate.m in Sources */,
+				81ED607A9FFB3713E4B8482E74C5425C /* LSAnimationManager.m in Sources */,
+				8E0DDA3AA4AA2F31D56759C52A2AFA21 /* LSCircle.m in Sources */,
+				5328AED0B727FA88BFD8CACD500E0426 /* LSGeolocation.m in Sources */,
+				B4D3E61C6B2FDA2F83DFDE19BC6134DD /* LSLoadingHUD.m in Sources */,
+				83DFBC53A7856952097B4B07FF9C98B2 /* LSRotationView.m in Sources */,
+				B3269670FD07EB9BE2942BA40B93307A /* LSTick.m in Sources */,
+				F7B50B018F069588736CF8ECFA4F6506 /* LSWave.m in Sources */,
+				CE6E45BE9CBC0826A5715A1B30AA3CFF /* QZLToolsKit-dummy.m in Sources */,
+				1BF7330D2911A2275F671308B18554BE /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D220756C3CDF85CEEADA8392CBB2FEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = A8A1A7FB603C4F060F2A125BF60D295D /* YYModel */;
-			targetProxy = B58DCD071840F9DB05CB830A5BCDD641 /* PBXContainerItemProxy */;
-		};
-		593947F70B75D571F052BE439AFF1B2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "QZLToolsKit-QZLToolsKit";
-			target = E9DFB108A5F66BB121CFD1793D9D8B49 /* QZLToolsKit-QZLToolsKit */;
-			targetProxy = 4DAA82E61243DB2AE03A883BE47D464E /* PBXContainerItemProxy */;
-		};
-		872F75B5CB38626C58214E4BF9E4F0E4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = A8A1A7FB603C4F060F2A125BF60D295D /* YYModel */;
-			targetProxy = 6B436D0965E31086A02F62FCC78428E5 /* PBXContainerItemProxy */;
-		};
-		8A8E820D13FF62C9A490CE0CCCDA3C98 /* PBXTargetDependency */ = {
+		70E835900B9364E9261C3C0D22DD16DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QZLToolsKit;
-			target = 41476E6D8A6F2CFBE8B130BF1EEEB14E /* QZLToolsKit */;
-			targetProxy = 8EBD81E2297AD2808E81D50A63AE8E96 /* PBXContainerItemProxy */;
+			target = C1BF621B63676A6AF9234221F935F9F0 /* QZLToolsKit */;
+			targetProxy = 999355455889F808ED2EA0C05149269B /* PBXContainerItemProxy */;
+		};
+		B4EBBE8B391994F74C996B8D8FF40C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QZLToolsKit-QZLToolsKit";
+			target = 529652F6C50DB9CF53B4666DC761C718 /* QZLToolsKit-QZLToolsKit */;
+			targetProxy = 95D1C787E002F8CAAB3A500A9C48CF18 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		171D408D729EAE1A2E8744FD79019A76 /* Debug */ = {
+		2FE784CDABD60C887692B326D4B41B0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3C7EDE62C882DD4D17C9B00BAA0A454 /* YYModel.xcconfig */;
+			baseConfigurationReference = 692C26B054BD57953AC8DDF3B25BCDFF /* QZLToolsKit.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYModel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QZLToolsKit";
+				INFOPLIST_FILE = "Target Support Files/QZLToolsKit/ResourceBundle-QZLToolsKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
-				PRODUCT_NAME = YYModel;
+				PRODUCT_NAME = QZLToolsKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -826,9 +647,9 @@
 			};
 			name = Debug;
 		};
-		50A7137D7C656CD065971E15EAA2134A /* Debug */ = {
+		590F2B795779A038ADCFF8374A99B70D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97ACE92B8C8752B8C3CFC0930A9F46F /* QZLToolsKit.xcconfig */;
+			baseConfigurationReference = 692C26B054BD57953AC8DDF3B25BCDFF /* QZLToolsKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QZLToolsKit";
@@ -842,9 +663,9 @@
 			};
 			name = Debug;
 		};
-		55738DEAC38890BBAFBEB574BE31B5BD /* Release */ = {
+		6EA79427BC0BCD0CFC411824DD78BAE0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97ACE92B8C8752B8C3CFC0930A9F46F /* QZLToolsKit.xcconfig */;
+			baseConfigurationReference = FDF880F31BA0DD186932315CA939CA81 /* Pods-QZLToolsKit_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -855,75 +676,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QZLToolsKit/QZLToolsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QZLToolsKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QZLToolsKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QZLToolsKit/QZLToolsKit.modulemap";
-				PRODUCT_NAME = QZLToolsKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QZLToolsKit_Example/Pods-QZLToolsKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QZLToolsKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		56EB80DC22784FE3AB3EB07BEAEE6FE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97ACE92B8C8752B8C3CFC0930A9F46F /* QZLToolsKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QZLToolsKit/QZLToolsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QZLToolsKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QZLToolsKit/QZLToolsKit.modulemap";
-				PRODUCT_NAME = QZLToolsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		587DC3F48E6C0A114A842CF287176C05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3C7EDE62C882DD4D17C9B00BAA0A454 /* YYModel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYModel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
-				PRODUCT_NAME = YYModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -986,87 +751,6 @@
 			};
 			name = Release;
 		};
-		76EBD8021D0BB7615E3BD716E26D4F04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97ACE92B8C8752B8C3CFC0930A9F46F /* QZLToolsKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QZLToolsKit";
-				INFOPLIST_FILE = "Target Support Files/QZLToolsKit/ResourceBundle-QZLToolsKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = QZLToolsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		84EE6B38579D52EAB53DE83BB57842BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDF880F31BA0DD186932315CA939CA81 /* Pods-QZLToolsKit_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QZLToolsKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QZLToolsKit_Example/Pods-QZLToolsKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QZLToolsKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		896711BAFA89C7844304EC925B7D71DE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C093080F5E5556D6C84925E81D01A032 /* Pods-QZLToolsKit_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QZLToolsKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QZLToolsKit_Example/Pods-QZLToolsKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QZLToolsKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B84E8E6BC03CDE75F6BC5C4A062FD95D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6174F072A42751D91F94B873D6E3762A /* Pods-QZLToolsKit_Tests.release.xcconfig */;
@@ -1100,6 +784,97 @@
 			};
 			name = Release;
 		};
+		D6BBBB653B31F0F73559D53B61465D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692C26B054BD57953AC8DDF3B25BCDFF /* QZLToolsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QZLToolsKit/QZLToolsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QZLToolsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QZLToolsKit/QZLToolsKit.modulemap";
+				PRODUCT_NAME = QZLToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6C1EBB80B78499AEC8E8DB837EA8715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C093080F5E5556D6C84925E81D01A032 /* Pods-QZLToolsKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QZLToolsKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QZLToolsKit_Example/Pods-QZLToolsKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QZLToolsKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAA57CA173BFFD4157266D033337826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692C26B054BD57953AC8DDF3B25BCDFF /* QZLToolsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QZLToolsKit/QZLToolsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QZLToolsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QZLToolsKit/QZLToolsKit.modulemap";
+				PRODUCT_NAME = QZLToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1112,38 +887,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		519EF2FBCE41698E83CE11C22D17E0C9 /* Build configuration list for PBXNativeTarget "QZLToolsKit" */ = {
+		2E91D964C3848EB2B769EF8A4100BEEB /* Build configuration list for PBXNativeTarget "QZLToolsKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56EB80DC22784FE3AB3EB07BEAEE6FE8 /* Debug */,
-				55738DEAC38890BBAFBEB574BE31B5BD /* Release */,
+				FAA57CA173BFFD4157266D033337826D /* Debug */,
+				D6BBBB653B31F0F73559D53B61465D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88D48C3CC4AD3C2A5415BDEEB4318FDD /* Build configuration list for PBXNativeTarget "QZLToolsKit-QZLToolsKit" */ = {
+		534C379D3ED39499477FD2E402E610B2 /* Build configuration list for PBXNativeTarget "Pods-QZLToolsKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50A7137D7C656CD065971E15EAA2134A /* Debug */,
-				76EBD8021D0BB7615E3BD716E26D4F04 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8D17B7EA39A4D36BB4ACCFC8F9259990 /* Build configuration list for PBXNativeTarget "Pods-QZLToolsKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				896711BAFA89C7844304EC925B7D71DE /* Debug */,
-				84EE6B38579D52EAB53DE83BB57842BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A3681906A714F1C88F949B13DCCFA569 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				171D408D729EAE1A2E8744FD79019A76 /* Debug */,
-				587DC3F48E6C0A114A842CF287176C05 /* Release */,
+				F6C1EBB80B78499AEC8E8DB837EA8715 /* Debug */,
+				6EA79427BC0BCD0CFC411824DD78BAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1153,6 +910,15 @@
 			buildConfigurations = (
 				3C48256B7133D327C47AFDD3EF70A80C /* Debug */,
 				B84E8E6BC03CDE75F6BC5C4A062FD95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35E9942A0D9E8D5E0A973AFCBFC709F /* Build configuration list for PBXNativeTarget "QZLToolsKit-QZLToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590F2B795779A038ADCFF8374A99B70D /* Debug */,
+				2FE784CDABD60C887692B326D4B41B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
