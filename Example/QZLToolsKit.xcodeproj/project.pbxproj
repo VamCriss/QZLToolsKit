@@ -323,10 +323,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QZLToolsKit_Example/Pods-QZLToolsKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/QZLToolsKit/QZLToolsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QZLToolsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

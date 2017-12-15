@@ -1,6 +1,6 @@
 {
   "name": "QZLToolsKit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of QZLToolsKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/VamCriss/QZLToolsKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/VamCriss/QZLToolsKit.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -27,5 +27,10 @@
   "frameworks": [
     "UIKit",
     "MapKit"
-  ]
+  ],
+  "dependencies": {
+    "YYModel": [
+
+    ]
+  }
 }

@@ -1,5 +1,7 @@
 PODS:
-  - QZLToolsKit (0.1.1)
+  - QZLToolsKit (0.1.2):
+    - YYModel
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - QZLToolsKit (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  QZLToolsKit: 96ed2962887ca95d5a79546460de540f070dc15c
+  QZLToolsKit: 83b43a26939da808afc2e040559831518d8ca35f
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: 57f851896f9565e7330670e8ee7166a70a015436
 
