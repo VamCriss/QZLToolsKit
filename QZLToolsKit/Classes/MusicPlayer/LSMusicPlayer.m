@@ -9,6 +9,7 @@
 #import "LSMusicPlayer.h"
 #import <MediaPlayer/MediaPlayer.h>
 #import "LSMusicContentModel.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface LSMusicPlayer ()
 
@@ -90,8 +91,6 @@
 
 - (void)play {
     if (_currentStatu != LSMusicPlayerCurrentStatusInterrupt) {
-        [[LSFunManager manager] stopFlyVoice];
-        
         if (self.player.status == AVPlayerStatusReadyToPlay) {
             [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
             [self.player play];
@@ -99,7 +98,6 @@
             [self setupLockScreenInfo];
             _currentStatu = LSMusicPlayerCurrentStatusPlay;
             _model.isPlay = YES;
-            LSHUD_DISMISS;
         }else {
             //        LSHUD_SHOW;
             self.isNeedPlay = YES;
@@ -135,7 +133,6 @@
     [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo = nil;
     _currentStatu = LSMusicPlayerCurrentStatusStop;
     [self clearData];
-    POST_NOTIFICATION_(NOTI_BackgroundBackForeground, nil);
 }
 
 - (void)clearData {
@@ -155,7 +152,6 @@
                     [self play];
                     NSLog(@"开始播放");
                 }
-                LSHUD_DISMISS;
                 NSLog(@"KVO：准备完毕，可以播放");
             }
                 break;
@@ -262,7 +258,7 @@
 }
 
 - (void)setUrl:(NSString *)url {
-    _url = [url ls_createStringByAddingPercentEscapes];
+    _url = [url stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
 }
 
 - (void)setCurrentTime:(NSString *)currentTime {

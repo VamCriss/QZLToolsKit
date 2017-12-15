@@ -10,7 +10,6 @@
 #import "LSWave.h"
 #import "LSCircle.h"
 #import "LSTick.h"
-#import "AppDelegate.h"
 
 @interface LSAnimationManager ()
 
@@ -23,6 +22,8 @@
 @implementation LSAnimationManager
 
 #define animationHUD [LSAnimationManager shareManager]
+#define UIColorWithHex16_(ly_0Xefefef) \
+[UIColor colorWithRed:((ly_0Xefefef & 0xFF0000) >> 16) / 255.0 green:((ly_0Xefefef & 0x00FF00) >> 8) / 255.0 blue:((ly_0Xefefef & 0x0000FF)) / 255.0 alpha:1]
 
 /* 创建单例 */
 + (instancetype)shareManager {
@@ -89,8 +90,7 @@
 
 /* 获取window */
 + (UIWindow *)ls_window {
-    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    return delegate.window;
+    return [UIApplication sharedApplication].delegate.window;
 }
 
 @end

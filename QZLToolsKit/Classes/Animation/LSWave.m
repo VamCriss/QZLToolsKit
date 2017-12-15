@@ -11,7 +11,8 @@
 //#define BackGroundColor [UIColor colorWithRed:96/255.0f green:159/255.0f blue:150/255.0f alpha:1]
 //#define WaveColor1 [UIColor colorWithRed:136/255.0f green:199/255.0f blue:190/255.0f alpha:1]
 //#define WaveColor2 [UIColor colorWithRed:28/255.0 green:203/255.0 blue:174/255.0 alpha:1]
-
+#define UIColorWithHex16_(ly_0Xefefef) \
+[UIColor colorWithRed:((ly_0Xefefef & 0xFF0000) >> 16) / 255.0 green:((ly_0Xefefef & 0x00FF00) >> 8) / 255.0 blue:((ly_0Xefefef & 0x0000FF)) / 255.0 alpha:1]
 #define BackGroundColor UIColorWithHex16_(0xa0bfe6)
 #define WaveColor1 UIColorWithHex16_(0xffffff)
 #define WaveColor2 UIColorWithHex16_(0xffffff)

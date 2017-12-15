@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0B2EE4A7069EC9EE2CF7B59C /* Pods-QZLToolsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZLToolsKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QZLToolsKit_Example/Pods-QZLToolsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		25DE8CD26D9E43C8DD98304B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		25DE8CD26D9E43C8DD98304B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2E68244D0C7229416CE5B671 /* Pods_QZLToolsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZLToolsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* QZLToolsKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZLToolsKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		7CAA6D08E2639B6714AE3181 /* Pods_QZLToolsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZLToolsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0EC07D1B586C418F5924884 /* Pods-QZLToolsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZLToolsKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QZLToolsKit_Example/Pods-QZLToolsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C63AE15F263C2570F0FE4A92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D658EEC56E3B7F6107291581 /* QZLToolsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QZLToolsKit.podspec; path = ../QZLToolsKit.podspec; sourceTree = "<group>"; };
+		C63AE15F263C2570F0FE4A92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D658EEC56E3B7F6107291581 /* QZLToolsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QZLToolsKit.podspec; path = ../QZLToolsKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
