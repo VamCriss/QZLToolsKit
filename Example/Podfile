@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QZLToolsKit_Example' do
+  pod 'QZLToolsKit', :path => '../'
+
+  target 'QZLToolsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
