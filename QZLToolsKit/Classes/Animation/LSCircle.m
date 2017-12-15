@@ -10,6 +10,8 @@
 
 static CGFloat lineWidth = 4.0f;
 #define BlueColor [UIColor colorWithRed:16/255.0 green:142/255.0 blue:233/255.0 alpha:1]
+#define UIColorWithHex16_(ly_0Xefefef) \
+[UIColor colorWithRed:((ly_0Xefefef & 0xFF0000) >> 16) / 255.0 green:((ly_0Xefefef & 0x00FF00) >> 8) / 255.0 blue:((ly_0Xefefef & 0x0000FF)) / 255.0 alpha:1]
 
 @implementation LSCircle {
     CADisplayLink *_link;
