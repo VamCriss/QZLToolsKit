@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of QZLToolsKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ericluo0114@hotmail.com/QZLToolsKit",
+  "homepage": "https://github.com/VamCriss/QZLToolsKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,25 @@
     "ericluo0114@hotmail.com": "luohao@icourt.cc"
   },
   "source": {
-    "git": "https://github.com/ericluo0114@hotmail.com/QZLToolsKit.git",
+    "git": "https://github.com/VamCriss/QZLToolsKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QZLToolsKit/Classes/**/*"
+  "source_files": "QZLToolsKit/Classes/**/*",
+  "resource_bundles": {
+    "QZLToolsKit": [
+      "QZLToolsKit/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "YYModel": [
+
+    ]
+  }
 }

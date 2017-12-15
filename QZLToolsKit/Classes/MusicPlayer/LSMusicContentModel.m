@@ -7,7 +7,7 @@
 //
 
 #import "LSMusicContentModel.h"
-#import <YYModel.h>
+#import "YYModel.h"
 
 @implementation LSMusicSingerModel
 - (NSString *)description
