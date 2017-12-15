@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ericluo0114@hotmail.com/QZLToolsKit'
+  s.homepage         = 'https://github.com/VamCriss/QZLToolsKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ericluo0114@hotmail.com' => 'luohao@icourt.cc' }
-  s.source           = { :git => 'https://github.com/ericluo0114@hotmail.com/QZLToolsKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/VamCriss/QZLToolsKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'QZLToolsKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'QZLToolsKit' => ['QZLToolsKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'QZLToolsKit' => ['QZLToolsKit/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
