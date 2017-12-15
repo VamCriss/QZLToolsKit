@@ -1,0 +1,6 @@
+framework module Pods_QZLToolsKit_Example {
+  umbrella header "Pods-QZLToolsKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "QZLToolsKit",
+  "version": "0.1.0",
+  "summary": "A short description of QZLToolsKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ericluo0114@hotmail.com/QZLToolsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ericluo0114@hotmail.com": "luohao@icourt.cc"
+  },
+  "source": {
+    "git": "https://github.com/ericluo0114@hotmail.com/QZLToolsKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QZLToolsKit/Classes/**/*"
+}
